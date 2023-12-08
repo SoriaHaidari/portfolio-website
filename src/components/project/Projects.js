@@ -73,12 +73,13 @@ export default function Portfolio() {
       </div>
       {/* Got the data dynamically from Data component */}
       <div className="container portfolio__container ">
-        {currentData.map(({ id, image, title, github }) => (
+        {currentData.map(({ id, image, title, text, github }) => (
           <article key={id} className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={image} alt={title} />
             </div>
             <h3>{title}</h3>
+            <p>{text}</p>
             <div className="portfolio__item-cta">
               <a
                 href={github}
@@ -89,7 +90,6 @@ export default function Portfolio() {
                 GitHub
               </a>
             </div>
-
             {/* first attribute is the active stars by default */}
             <Rating initialValue={0} projectId={id} />
           </article>

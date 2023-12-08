@@ -50,6 +50,7 @@ footer a {
 
 .permalinks {
   display: flex;
+  border: none;
   flex-direction: wrap;
   justify-content: center;
   gap: 2rem;

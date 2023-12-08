@@ -7,6 +7,8 @@
   display: flex;
   flex-direction: row;
   margin-left: auto;
+  margin-top: -2.2rem;
+  margin-bottom: -6rem;
   margin-right: auto;
   transition: var(--transition);
 }
@@ -32,37 +34,15 @@
   color: var(--color-bg);
   transition: var(--transition);
 }
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   .filter__container {
-    flex-direction: row;
-    width: 26rem;
-    margin: -4rem 0 0 2rem;
-    position: relative;
-    background: none;
-    border: none;
-    top: -48.8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1024px) {
   .filter__container {
-    margin-left: -1.5rem;
-    top: -54rem;
-    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
-@media screen and (min-width: 1024px) {
-  .filter__container {
-    margin-left: 8rem;
-  }
-}
-@media screen and (max-width: 390px) {
-  #filter {
-    margin-left: -0.5rem;
-    position: relative;
-    top: 4rem;
-  }
-  .filter__container {
-    width: 4rem;
-    margin-top: 4rem;
-  }
-} */

@@ -7,6 +7,14 @@
 #contact {
   margin-top: 18rem;
 }
+.head {
+  text-align: center;
+  color: var(--color-light);
+}
+.head2 {
+  text-align: center;
+  color: var(--color-primary);
+}
 .contact__options {
   display: flex;
   flex-wrap: wrap;

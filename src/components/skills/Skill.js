@@ -34,7 +34,7 @@ export default function Skill() {
   };
 
   return (
-    <div id="skill" className="skill-top">
+    <section id="skill" className="skill-top">
       <h3 className="heading1">{t("skill.heading1")}</h3>
       <h5 className="heading2">{t("skill.heading2")}</h5>
       <section id="skill" className="skills">
@@ -43,7 +43,7 @@ export default function Skill() {
             return (
               // The data is getting dynamically by map() mathod
 
-              <div key={skills.id} className={skills.class1}>
+              <div key={skills.id}>
                 <div className={skills.class2}>
                   <div className={skills.class3}>
                     <div className={skills.class4}>
@@ -73,6 +73,6 @@ export default function Skill() {
           })}
         </Slider>
       </section>
-    </div>
+    </section>
   );
 }

@@ -89,9 +89,9 @@ nav a {
 @media screen and (max-width: 500px) {
   .list {
     flex-direction: column;
-    height: auto;
+    height: 25rem;
     position: relative;
-    background: var(--color-primary);
+    background: rgba(47, 70, 73, 0.834);
     color: var(--color-white);
     border-radius: 0rem;
     border-bottom-left-radius: 2rem;
@@ -107,7 +107,7 @@ nav a {
   }
   nav a.active {
     background: var(--color-white);
-    color: var(--color-primary);
+    color: rgba(47, 70, 73, 0.834);
   }
 
   .item {
@@ -115,15 +115,8 @@ nav a {
     margin-right: 0px;
     padding: 2px 0;
   }
-  .logo-icon {
-    display: none;
-  }
+
   .btnn {
     display: block;
-  }
-}
-@media screen and (max-width: 700px) {
-  .logo-icon {
-    display: none;
   }
 }

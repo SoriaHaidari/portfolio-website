@@ -13,6 +13,7 @@ export function GetProjectData() {
       category: "React",
       image: p1,
       title: t("project.title1"),
+      text: t("project.text1"),
       github: "https://github.com/SoriaHaidari/expense-item",
     },
     {
@@ -20,6 +21,7 @@ export function GetProjectData() {
       category: "Java Script",
       image: p2,
       title: t("project.title2"),
+      text: t("project.text2"),
       github: "https://github.com/SoriaHaidari/Guess-Number",
     },
     {
@@ -27,6 +29,7 @@ export function GetProjectData() {
       category: "Raect",
       image: p3,
       title: t("project.title3"),
+      text: t("project.text3"),
       github: "https://github.com/SoriaHaidari/Car-Store-Project",
     },
     {
@@ -34,6 +37,7 @@ export function GetProjectData() {
       category: "Java Script",
       image: p4,
       title: t("project.title4"),
+      text: t("project.text4"),
       github: "https://github.com/SoriaHaidari/rock-paper-scissorsgame",
     },
     {
@@ -41,6 +45,7 @@ export function GetProjectData() {
       category: "HTML",
       image: p5,
       title: t("project.title5"),
+      text: t("project.text5"),
       github: "https://github.com/SoriaHaidari/SimonGame",
     },
   ];

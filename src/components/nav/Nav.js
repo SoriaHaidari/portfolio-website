@@ -111,9 +111,9 @@ export default function Nav() {
 
             <li className="item">
               <a
-                href="#contact"
-                onClick={() => setActiveNav("#contact")}
-                className={activeNav === "#contact" ? "active" : ""}
+                href="#contacts"
+                onClick={() => setActiveNav("#contacts")}
+                className={activeNav === "#contacts" ? "active" : ""}
               >
                 <IoMdContacts />
               </a>

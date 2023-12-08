@@ -7,8 +7,8 @@
   transform: var(--transition);
   width: 3rem;
 }
-#skill {
-  margin-top: 5rem;
+.skill-top {
+  margin-top: -1rem;
 }
 .heading1 {
   text-align: center;
@@ -212,9 +212,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  #skill {
-    margin-top: 7rem;
-  }
   .row {
     flex-wrap: wrap;
     justify-content: center;
